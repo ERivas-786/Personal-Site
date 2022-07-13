@@ -58,7 +58,6 @@ hr{
 }
 
 
-
 .bio{
 margin: auto;  
 width: 25%;
@@ -143,14 +142,17 @@ width: 25%;
 
 
 .JI{
-  width: 25%;
-  float: right; /*using clear:___ property, prevents text from wrapping */
-  margin-left: 5%;
+  width: 15%;
+  min-width: 15%;
+  max-width: 15%;
+  float: left;
+  margin-right: 5%;
 }
 
 .main-h2{
   color:whitesmoke;
 }
+
 
 
 .palmleaf-1{
@@ -206,9 +208,16 @@ width: 25%;
  
 
 .UI{
-  width: 18%;
+  width: 15%;
   float: left;
   margin-right: 5%;
+}
+
+
+.WI{
+  width: 25%;
+  float: right; /*using clear:___ property, prevents text from wrapping */
+  margin-left: 5%;
 }
 
  

@@ -12,6 +12,7 @@ h1{
   font-size: 3.75rem;
   color: whitesmoke;
   margin-top: 0%;
+
 }
 
 h2{
@@ -40,7 +41,7 @@ p{
 }
 
 a{
-  color:#127c7f;
+  color:#1b639d;
   font-family: 'Merriweather', sans-serif;
   margin: 10px 20px;
   text-decoration: none;
@@ -66,17 +67,17 @@ width: 50%;
 
 .bot-section{
   padding: 2% 0 1% 0;
-  background-color: #66BFBF;
+  background-color: #1f94d4;
 }
 
 
 .btn {
-  background: #11cdd4;
-  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
-  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
-  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
-  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
-  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  background: #1f94d4;
+  background-image: -webkit-linear-gradient(top, #1f94d4, #1f94d4);
+  background-image: -moz-linear-gradient(top, #1f94d4, #1f94d4);
+  background-image: -ms-linear-gradient(top, #1f94d4, #1f94d4);
+  background-image: -o-linear-gradient(top, #1f94d4, #1f94d4);
+  background-image: linear-gradient(to bottom, #1f94d4, #1f94d4);
   -webkit-border-radius: 60;
   -moz-border-radius: 60;
   border-radius: 60px;

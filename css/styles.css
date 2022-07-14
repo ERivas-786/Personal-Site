@@ -7,30 +7,28 @@ body{
 
 
 h1{
-  font-family: 'Merriweather', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   margin: 4% auto 0 auto;
   font-size: 3.75rem;
-  z-index: 1;
   color: whitesmoke;
   margin-top: 0%;
-
 }
 
 h2{
-  font-family: 'Merriweather', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 2rem;
   font-weight: normal;
   color: #1f94d4;
 }
 
 h3{
-  font-family: 'Merriweather', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 1rem;
   color: #1f94d4;
 }
 
 h4{
-  font-family: 'Merriweather', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 1.5rem;
   color: #1f94d4;
 }
@@ -153,6 +151,7 @@ width: 50%;
 
 .main-h2{
   color:whitesmoke;
+  font-size: 1.75rem;
 }
 
 

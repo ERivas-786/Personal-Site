@@ -270,17 +270,19 @@ width: 50%;
     padding-top: 10%;
   }
   
+
+  .intro{
+    margin-top: 50%;
+  }
+
   .cloud-1{
-    margin-top: 20%;
+    margin-top: 5%;
   }
 
   .cloud-2{
-    margin-top: 20%;
+    margin-top: 40%;
   }
 
-  .intro{
-    margin-top: 20%;
-  }
 
   
 }

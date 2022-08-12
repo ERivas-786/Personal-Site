@@ -259,15 +259,27 @@ width: 50%;
 @media(max-width: 400px){
   .btn{
     font-size: 0.75rem;
-    padding-left: 0;
-    padding-right: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 0;
+    margin-right: 0;
   }
 
   .top-section{
     height: 90vh;
     padding-top: 10%;
-    margin-top: auto;
-    margin-bottom: auto;
+  }
+  
+  .cloud-1{
+    margin-top: 20%;
+  }
+
+  .cloud-2{
+    margin-top: 20%;
+  }
+
+  .intro{
+    margin-top: 20%;
   }
 
   

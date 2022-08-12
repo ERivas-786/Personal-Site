@@ -202,7 +202,6 @@ width: 50%;
 
 .top-section{
   background-color: #1f94d4;
-  position: relative;
   height: 81vh;
   padding-top: 10%;
  }
@@ -222,6 +221,13 @@ width: 50%;
 }
 
 @media (max-width: 1000px) {
+
+  .top-section{
+    padding-top: 50%;
+    padding-bottom: 0%;
+  }
+
+
   h1{
     font-size: 3rem;
   }
@@ -253,7 +259,16 @@ width: 50%;
 @media(max-width: 400px){
   .btn{
     font-size: 0.75rem;
+    padding-left: 0;
+    padding-right: 0;
   }
+
+  .top-section{
+    padding-top: 10%;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
   
 }
 

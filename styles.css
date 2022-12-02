@@ -1,75 +1,69 @@
-body{
+body {
   margin: 0;
-  text-align: center;  /*Will center anything inside body container that doesnt have a width set*/ 
-  color: #40514E;
-
+  text-align: center; /*Will center anything inside body container that doesnt have a width set*/
+  color: #40514e;
 }
 
-
-h1{
-  font-family: 'Montserrat', sans-serif;
+h1 {
+  font-family: "Montserrat", sans-serif;
   margin: 4% auto 0 auto;
   font-size: 3.75rem;
   color: whitesmoke;
   margin-top: 0%;
-
 }
 
-h2{
-  font-family: 'Montserrat', sans-serif;
+h2 {
+  font-family: "Montserrat", sans-serif;
   font-size: 2rem;
   font-weight: normal;
   color: #1f94d4;
 }
 
-h3{
-  font-family: 'Montserrat', sans-serif;
+h3 {
+  font-family: "Montserrat", sans-serif;
   font-size: 1rem;
   color: #1f94d4;
 }
 
-h4{
-  font-family: 'Montserrat', sans-serif;
+h4 {
+  font-family: "Montserrat", sans-serif;
   font-size: 1.5rem;
   color: #1f94d4;
 }
 
-p{
+p {
   font-size: 1rem;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   line-height: 2;
 }
 
-a{
-  color:#1b639d;
-  font-family: 'Merriweather', sans-serif;
+a {
+  color: #1b639d;
+  font-family: "Merriweather", sans-serif;
   margin: 10px 20px;
   text-decoration: none;
 }
 
-a:hover{
+a:hover {
   color: rgb(255, 255, 255);
 }
 
-hr{
+hr {
   width: 4%;
   border: 6px dotted lightgray;
   border-bottom: none;
   margin: 1% auto;
 }
 
-
-.bio{
-margin: auto;  
-width: 50%;
+.bio {
+  margin: auto;
+  width: 50%;
 }
 
-
-.bot-section{
+.bot-section {
   padding: 2% 0 1% 0;
   background-color: #1f94d4;
 }
-
 
 .btn {
   background: #1f94d4;
@@ -98,54 +92,49 @@ width: 50%;
   text-decoration: none;
 }
 
-.cloud-container{
+.cloud-container {
   position: relative;
 }
 
-.cloud-1{
+.cloud-1 {
   position: absolute;
   right: 24%;
   top: 25%;
   z-index: 1;
 }
 
-.cloud-2{
+.cloud-2 {
   position: absolute;
   left: 27%;
   z-index: 1;
 }
 
-
-.Contact{
+.Contact {
   width: 40%;
   margin: 40px auto 80px;
 }
 
-
-.contact-msg{
+.contact-msg {
   margin: 7% auto 10% auto;
 }
 
-
-.copyright{
-  color:#EAF6F6;
+.copyright {
+  color: #eaf6f6;
   font-size: 0.75rem;
   padding: 1% 0;
 }
 
-.Hello{
+.Hello {
   padding-top: 2%;
   padding-bottom: 5%;
 }
 
-
-.intro{
+.intro {
   padding-top: 10%;
   margin: auto;
 }
 
-
-.java-img{
+.java-img {
   width: 15%;
   min-width: 15%;
   max-width: 15%;
@@ -153,111 +142,100 @@ width: 50%;
   margin-right: 5%;
 }
 
-.main-h2{
-  color:whitesmoke;
+.main-h2 {
+  color: whitesmoke;
   font-size: 1.75rem;
 }
 
-
-
-.palmleaf-1{
+.palmleaf-1 {
   position: absolute;
   right: 0%;
   top: 0%;
-  bottom: 0%;  
+  bottom: 0%;
   width: 25%;
   height: 37%;
-
 }
 
-.palmleaf-2{
+.palmleaf-2 {
   position: absolute;
   transform: scaleX(-1);
   left: 0%;
   top: 0%;
-  bottom: 0%;  
+  bottom: 0%;
   width: 25%;
   height: 37%;
 }
 
-
-.Selfie{
+.Selfie {
   margin-top: 2%;
-  width: 13vw; 
+  width: 13vw;
   border-radius: 50%;
 }
 
-
-.Skills{
+.Skills {
   padding-top: 3%;
 }
 
-
-.skill-row{
+.skill-row {
   text-align: left;
   margin: 5% auto 10% auto;
   width: 50%;
 }
 
-
-.top-section{
+.top-section {
   background-color: #1f94d4;
   height: 81vh;
   padding-top: 10%;
- }
- 
+}
 
-.unity-img{
+.unity-img {
   width: 15%;
   float: left;
   margin-right: 5%;
 }
 
-
-.web-img{
+.web-img {
   width: 25%;
   float: right; /*using clear:___ property, prevents text from wrapping */
   margin-left: 5%;
 }
 
 @media (max-width: 1000px) {
-
-  .top-section{
+  .top-section {
     padding-top: 50%;
     padding-bottom: 0%;
   }
 
-
-  h1{
+  h1 {
     font-size: 3rem;
   }
-  .main-h2{
+  .main-h2 {
     font-size: 1.5rem;
   }
 
-  .cloud-1{
+  .cloud-1 {
     width: 20%;
   }
 
-  .cloud-2{
+  .cloud-2 {
     width: 20%;
   }
-  
-  .btn{
+
+  .btn {
     font-size: 1rem;
   }
 
-  .Selfie{
+  .Selfie {
     width: 30%;
   }
 
-  .bot-section{
+  .bot-section {
     padding-top: 5%;
   }
 }
 
-@media(max-width: 400px){
-  .btn{
+@media (max-width: 400px) {
+  .btn {
     font-size: 0.75rem;
     padding-left: 20px;
     padding-right: 20px;
@@ -265,33 +243,28 @@ width: 50%;
     margin-right: 0;
   }
 
-  .top-section{
+  .top-section {
     height: 90vh;
     padding-top: 10%;
   }
-  
 
-  .intro{
+  .intro {
     margin-top: 50%;
   }
 
-  .cloud-1{
+  .cloud-1 {
     margin-top: 30%;
   }
 
-  .cloud-2{
+  .cloud-2 {
     margin-top: 40%;
   }
 
-.palmleaf-1{
-  width: 45%;
+  .palmleaf-1 {
+    width: 45%;
+  }
+
+  .palmleaf-2 {
+    width: 45%;
+  }
 }
-
-.palmleaf-2{
-  width: 45%;
-}
-  
-}
-
-
-

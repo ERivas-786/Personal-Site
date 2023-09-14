@@ -134,14 +134,6 @@ hr {
   margin: auto;
 }
 
-.java-img {
-  width: 15%;
-  min-width: 15%;
-  max-width: 15%;
-  float: left;
-  margin-right: 5%;
-}
-
 .main-h2 {
   color: whitesmoke;
   font-size: 1.75rem;
@@ -166,6 +158,11 @@ hr {
   height: 37%;
 }
 
+.left-img {
+  width: 15%;
+  float: left;
+  margin-right: 5%;
+}
 .Selfie {
   margin-top: 2%;
   width: 13vw;
@@ -190,11 +187,11 @@ hr {
 
 .unity-img {
   width: 15%;
-  float: left;
-  margin-right: 5%;
+  float: right;
+  margin-left: 5%;
 }
 
-.web-img {
+.right-img {
   width: 25%;
   float: right; /*using clear:___ property, prevents text from wrapping */
   margin-left: 5%;
